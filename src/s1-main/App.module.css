@@ -1,11 +1,23 @@
+:root {
+    --border-gray: #D9D9D9;
+    --blue: #0066CC;
+    --gray: #F5F7FB;
+}
+
 .App {
     --header_height: 60px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .hw {
-
+    border-top: 1px solid var(--border-gray);
+    border-bottom: 1px solid var(--border-gray);
 }
 
 .hwTitle {
-
+    padding: 16px;
+    font-weight: bold;
 }
