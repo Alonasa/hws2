@@ -8,13 +8,19 @@
     --header_height: 60px;
     min-height: 100vh;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
 }
 
 .hw {
-    border-top: 1px solid var(--border-gray);
-    border-bottom: 1px solid var(--border-gray);
+    padding: 10px;
+    border-top: 2px solid var(--border-gray);
+    border-bottom: 2px solid var(--border-gray);
+}
+
+@media (min-width: 768px){
+    .hw {
+        padding: 10px 30px;
+    }
 }
 
 .hwTitle {
