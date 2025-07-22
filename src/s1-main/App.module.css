@@ -17,6 +17,10 @@
     border-bottom: 2px solid var(--border-gray);
 }
 
+.container {
+    margin: 30px 70px;
+}
+
 @media (min-width: 768px){
     .hw {
         padding: 10px 30px;
@@ -24,6 +28,7 @@
 }
 
 .hwTitle {
+    margin-left: 5%;
     padding: 16px;
     font-weight: bold;
 }

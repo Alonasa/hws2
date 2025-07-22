@@ -40,7 +40,7 @@ const MessageSender = (props: any) => {
     }
 
     return (
-        <>
+        <div className={s.container}>
             {messages.map((m) => (
                 <M key={'message' + m.id} message={m}/>
             ))}
@@ -69,7 +69,7 @@ const MessageSender = (props: any) => {
                     {/**/}
                 </button>
             </div>
-        </>
+        </div>
     )
 }
 

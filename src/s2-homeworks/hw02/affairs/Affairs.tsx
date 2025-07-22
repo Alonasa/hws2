@@ -2,6 +2,7 @@ import React from 'react'
 import Affair from './affair/Affair'
 import {AffairType, FilterType} from '../HW2'
 import s from './Affairs.module.css'
+import sl from '../../../s1-main/App.module.css'
 
 type AffairsPropsType = {
     data: AffairType[] // need to fix any
@@ -38,7 +39,7 @@ function Affairs(props: AffairsPropsType) {
     ))
 
     return (
-        <div>
+        <div className={sl.container}>
             <div className={s.buttonContainer}>
                 <button
                     id={'hw2-button-all'}
