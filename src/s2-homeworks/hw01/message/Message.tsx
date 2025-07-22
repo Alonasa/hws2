@@ -10,6 +10,7 @@ export type MessagePropsType = {
 // нужно отобразить приходящие данные
 const Message = (props: MessagePropsType) => {
     return (
+        <div className={s.container}>
         <div id={'hw1-message-' + props.message.id} className={s.message}>
             <div className={s.imageAndText}>
                 <img
@@ -38,6 +39,7 @@ const Message = (props: MessagePropsType) => {
             <div id={'hw1-time-' + props.message.id} className={s.time}>
                 <span>{props.message.message.time}</span>
             </div>
+        </div>
         </div>
     )
 }
